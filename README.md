@@ -26,9 +26,9 @@ Example of changing the main color:
 not 100% perfect. You can report any bugs or issues here on Github or directly to me on the Degenesis Discord.
 
 # Credits
-Degenesis Foundry VTT System shown by Moo Man and many other great Devs ( https://github.com/moo-man/DEGENESIS-FoundryVTT )
-Harm's Way content by Chernojack ( https://github.com/dgr-foundry/dgr-harms-way )
-Custom CSS Module by zeel ( https://foundryvtt.com/packages/custom-css )
+- Degenesis Foundry VTT System shown by Moo Man and many other great Devs ( https://github.com/moo-man/DEGENESIS-FoundryVTT )
+- Harm's Way content by Chernojack ( https://github.com/dgr-foundry/dgr-harms-way )
+- Custom CSS Module by zeel ( https://foundryvtt.com/packages/custom-css )
 
 # License
 Licensed under the MIT License terms https://mit-license.org
