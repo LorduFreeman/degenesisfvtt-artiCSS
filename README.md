@@ -20,6 +20,7 @@ It's possible to relatively easy change the main UI color to something different
 
 The only things currently not easily changeable are the Culture/Concept/Cult Icons and the sheet's lines at the borders.
 Example of changing the main color:
+
 ![recolor](https://user-images.githubusercontent.com/72170114/134515554-e4f8cdce-ef1f-424e-ba1d-71d216745c59.png)
 
 # Disclaimer
