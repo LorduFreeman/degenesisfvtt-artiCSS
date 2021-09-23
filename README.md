@@ -5,7 +5,7 @@
 I really love how customizable Foundry and the Degenesis system for it is, so I made a quick CSS hack because I love the Artifacts style as well. (shown with Harms Way module loaded). These changes do not touch your main Degenesis system at all, they are CSS overrides done by a module you need, Custom CSS.
 
 ![chat](https://user-images.githubusercontent.com/72170114/134515530-f8d89b3e-6de9-4d17-bdaa-64bc81652652.png)
-![main](https://user-images.githubusercontent.com/72170114/134515544-d87a5dae-f057-4892-93bd-9b54d298ef92.png)
+![image](https://user-images.githubusercontent.com/72170114/134559949-8d11b072-1682-4fc9-b3d2-e6b95987110c.png)
 
 # How to install
 1. Install the Custom CSS Module in Foundry VTT ( https://foundryvtt.com/packages/custom-css )
