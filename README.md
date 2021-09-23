@@ -18,6 +18,7 @@ This file contains the Artifacts styling for PC sheets and the Chat Card display
 # Customizing
 It's possible to relatively easy change the main UI color to something different than the Artifacts Gold. All you need to do is look at the color definitions starting at line 15 of the **Degenesis Arti Style.css** code. Line 12 has a comment on how it works.
 
+The only things currently not easily changeable are the Culture/Origin/Cult Icons and the sheet's lines at the borders.
 Example of changing the main color:
 ![recolor](https://user-images.githubusercontent.com/72170114/134515554-e4f8cdce-ef1f-424e-ba1d-71d216745c59.png)
 
