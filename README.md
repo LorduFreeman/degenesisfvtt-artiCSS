@@ -6,7 +6,6 @@ I really love how customizable Foundry and the Degenesis system for it is, so I 
 
 ![chat](https://user-images.githubusercontent.com/72170114/134515530-f8d89b3e-6de9-4d17-bdaa-64bc81652652.png)
 ![main](https://user-images.githubusercontent.com/72170114/134515544-d87a5dae-f057-4892-93bd-9b54d298ef92.png)
-![recolor](https://user-images.githubusercontent.com/72170114/134515554-e4f8cdce-ef1f-424e-ba1d-71d216745c59.png)
 
 # How to install
 1. Install the Custom CSS Module in Foundry VTT ( https://foundryvtt.com/packages/custom-css )
@@ -17,6 +16,10 @@ I really love how customizable Foundry and the Degenesis system for it is, so I 
 This file contains the Artifacts styling for PC sheets and the Chat Card display. If you just want a part, look for the comment section "/* * Start of Sheet CSS */" and cut there. 
 
 # Customizing
+It's possible to relatively easy change the main UI color to something different than the Artifacts Gold. All you need to do is look at the color definitions starting at line 15 of the **Degenesis Arti Style.css** code. Line 12 has a comment on how it works.
+
+Example of changing the main color:
+![recolor](https://user-images.githubusercontent.com/72170114/134515554-e4f8cdce-ef1f-424e-ba1d-71d216745c59.png)
 
 # Disclaimer
 not 100% perfect. You can report any bugs or issues here on Github or directly to me on the Degenesis Discord.
