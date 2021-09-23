@@ -1,0 +1,391 @@
+/* FVTT Degenesis System Artifacts styling v1.3 
+How to apply: Get the Custom CSS module and paste this entire code into its Custom CSS Rules section. */
+			
+/* Color Definitions: Change these to change the colors of the style, with degenesis-red being the main color and the others being variations of it. Notice how only the last value changes from 41 to 21, 61 or 10. For getting a color code, use https://hslpicker.com/ . Changing the 43deg to a different number for all the entries should be enough in most cases. Try replacing it with 83deg for example. */
+
+:root {
+  --degenesis-red: hsl(43deg 25% 41%);
+  --blackred: hsl(43deg 25% 21%);
+  --lightred: hsl(43deg 25% 61%);
+  --darkred: hsl(43deg 25% 10%);
+}
+
+.app.window-app.degenesis.sheet .attribute-tab {
+  font-size: 12px;
+}
+.chat-message .message-content {
+  font-family: "Avenir";
+  font-size: 15px;
+}
+
+#chat-log .message {
+  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background-size: 500px;
+  background-position: center;
+  color: var(--degenesis-red);
+}
+
+.chat-message .message-header {
+  font-family: "Avenir";
+  color: hsl(51deg 5% 45%);
+}
+
+#chat-form textarea {
+  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background-size: 400px;
+  background-position: bottom;
+  color: var(--degenesis-red);
+}
+
+.app.window-app.degenesis.sheet.item textarea {
+  border: 1px solid var(--darkred);
+}
+
+.app.window-app.degenesis.sheet textarea {
+  outline: var(--degenesis-red);
+  color: var(--degenesis-red);
+}
+
+.app.window-app.degenesis.sheet input {
+  color: var(--degenesis-red);
+  background-color: unset !important;
+}
+
+.app.window-app.degenesis.sheet.item select {
+  background-color: var(--darkred);
+}
+
+.chat-message h2 {
+  font-family: "Avenir";
+  font-weight: 900;
+  color: var(--degenesis-red);
+}
+
+hr {
+  border-top: 1px solid var(--degenesis-red);
+  border-bottom: 1px solid var(--blackred);
+}
+
+#controls .scene-control.active,
+#controls .control-tool.active,
+#controls .scene-control:hover,
+#controls .control-tool:hover {
+  border: 1px solid var(--degenesis-red);
+  border-bottom: 1px solid var(--degenesis-red);
+  box-shadow: 0 0 10px var(--degenesis-red);
+}
+
+#hotbar #macro-list {
+  border: 1px solid var(--degenesis-red);
+}
+
+#hotbar .macro {
+  border: 1px solid var(--blackred);
+}
+
+#hotbar .bar-controls,
+#hotbar #macro-list,
+#navigation #nav-toggle,
+#navigation #scene-list #nav-item,
+#controls .scene-control,
+#controls .control-tool {
+  border: 1px solid var(--blackred);
+}
+
+#sidebar-tabs {
+  box-shadow: 0 0 10px var(--degenesis-red);
+}
+
+.directory .directory-list .directory-item.context,
+.directory .directory-list .directory-item.active {
+  border-color: var(--degenesis-red);
+}
+
+.chat-message .message-content {
+  padding: 0 0.2em;
+}
+
+.post-item:hover {
+  outline: 1px solid var(--blackred);
+  transition-duration: 0.3s;
+  box-shadow: inset 0px -6px 11px 0px var(--degenesis-red);
+}
+
+/* * Start of Sheet CSS - if you only want the Artifacts styled character sheets, delete everything above this line */
+.square {
+  border: 1px solid var(--blackred);
+}
+
+.square.little {
+  border: 1px solid var(--degenesis-red);
+}
+.properties.square {
+  border: 1px solid var(--blackred);
+}
+
+.square.black {
+  background-color: var(--degenesis-red);
+  border: 1px solid var(--blackred);
+}
+
+.square-into.black {
+  background-color: var(--degenesis-red);
+  border: 1px solid var(--degenesis-red);
+}
+
+.square.red {
+  background-color: var(--degenesis-red);
+  border: 1px solid var(--lightred);
+}
+
+a.diamond:hover .square.red {
+  border: 1px solid white;
+}
+
+.square-into.black.mid-size {
+  border: 2px solid var(--darkred);
+  background-color: var(--darkred);
+}
+
+.app.window-app.degenesis.sheet input {
+  color: var(--degenesis-red);
+}
+
+.app.window-app.degenesis.sheet select {
+  color: var(--degenesis-red);
+  border: none;
+  padding: 0px;
+  font-weight: bold;
+  text-align-last: center;
+}
+
+.app.window-app.degenesis.sheet .sheet-field {
+  border-bottom: 1px solid var(--dark-grey);
+  border-bottom: 1px solid var(--blackred);
+}
+
+.app.window-app.degenesis.sheet .archetype-line {
+  background: var(--blackred);
+  color: var(--light-grey);
+}
+
+.app.window-app.degenesis.sheet.item .title-line,
+.app.window-app.degenesis.sheet .title-line {
+  filter: invert(51%) sepia(10%) saturate(1395%) hue-rotate(5deg)
+    brightness(87%) contrast(85%);
+  flex: 1;
+}
+
+.app.window-app.degenesis.sheet .header-column.header-line .square.little {
+  background-color: unset;
+}
+
+.app.window-app.degenesis.sheet .tabs .item {
+  color: var(--degenesis-red);
+}
+
+.app.window-app.degenesis.sheet .tabs .item:hover {
+  background-color: var(--blackred);
+}
+
+.app.window-app.degenesis.sheet .tabs .item.active {
+  background-color: var(--degenesis-red);
+  color: black;
+}
+
+.app.window-app.degenesis.sheet .three-Cs img {
+  filter: invert(51%) sepia(10%) saturate(1395%) hue-rotate(5deg)
+    brightness(87%) contrast(85%);
+}
+
+.app.window-app.degenesis.sheet .attribute h3 {
+  margin-bottom: 0px;
+  margin-left: 10px;
+  color: var(--degenesis-red);
+  display: flex;
+  align-self: center;
+}
+
+.app.window-app.degenesis.sheet .relationships-ol {
+  background: none;
+  color: var(--degenesis-red);
+}
+
+.app.window-app.degenesis.sheet .relationships-li {
+  border-bottom: 1px solid var(--blackred);
+}
+
+.app.window-app.degenesis.sheet .potentials-group .potentials-legend {
+  border-bottom: 1px solid var(--degenesis-red);
+}
+
+.app.window-app.degenesis.sheet .potentials-group .empty {
+  border-bottom: 1px solid var(--degenesis-red);
+}
+
+.app.window-app.degenesis.sheet .potentials-group .item-summary {
+  background-color: var(--darkred);
+  border-top: 1px solid var(--degenesis-red);
+  color: var(--light-grey);
+}
+
+.app.window-app.degenesis.sheet .potentials-group .advantage {
+  border-bottom: 1px solid var(--degenesis-red);
+}
+
+.degenesis.sheet .black-title h3 {
+  color: var(--degenesis-red);
+}
+
+.app.window-app.degenesis.sheet .bottom-conditions li {
+  border-bottom: 1px solid var(--blackred);
+}
+
+.app.window-app.degenesis.sheet .bottom-conditions .item-summary {
+  background-color: var(--darkred);
+  color: var(--light-grey);
+  border-top: 1px solid var(--degenesis-red);
+}
+
+.app.window-app.degenesis.sheet .conditions-ol {
+  border-collapse: inherit;
+  background: none;
+}
+
+.app.window-app.degenesis.sheet .arsenal-list .armor.item,
+.app.window-app.degenesis.sheet .arsenal-list .weapon.item {
+  border-bottom: 1px solid var(--blackred);
+}
+
+.app.window-app.degenesis.sheet
+  .inventory-tab
+  .encumbrance-group
+  .enc-container {
+  border: 1px solid var(--blackred);
+}
+
+.app.window-app.degenesis.sheet .armor-group .armor-legend,
+.app.window-app.degenesis.sheet .weapon-group .weapon-legend {
+  border-bottom: 1px solid var(--degenesis-red);
+}
+
+.app.window-app.degenesis.sheet .inventory-list .armor.item,
+.app.window-app.degenesis.sheet .inventory-list .weapon.item {
+  border-bottom: 1px solid var(--blackred);
+}
+
+.app.window-app.degenesis.sheet .inventory-list .item-summary {
+  background-color: var(--darkred);
+  padding: 5px 4px 5px 4px;
+  color: var(--light-grey);
+  border-top: 1px solid var(--degenesis-red);
+}
+
+.app.window-app.degenesis.sheet .inventory-list .item-summary .tag {
+  background: var(--degenesis-red);
+  color: var(--light-grey);
+}
+
+.app.window-app.degenesis.sheet .lt-group .legend {
+  border-bottom: 1px solid var(--degenesis-red);
+}
+
+.app.window-app.degenesis.sheet .lt-group .item-list .item {
+  border-bottom: 1px solid var(--blackred);
+}
+
+.roll-dialog .custom-modifiers {
+  width: 100%;
+  height: 75%;
+  overflow: auto;
+  border: 1px solid black;
+  overflow-wrap: anywhere;
+  border: 1px solid black;
+}
+
+.app.window-app.degenesis.sheet .window-content {
+  color: var(--degenesis-red);
+  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background-size: cover;
+  background-position-y: top;
+}
+
+.app.window-app.degenesis.sheet .footer-line {
+  background-color: unset;
+}
+
+.app.window-app.degenesis.sheet .item-summary {
+  background-color: var(--darkred);
+  border-top: 1px solid var(--degenesis-red);
+  color: var(--light-grey);
+}
+
+.app.window-app.degenesis.sheet .arsenal-list .item-summary {
+  background-color: var(--darkred);
+  border-top: 1px solid var(--degenesis-red);
+}
+
+.app.window-app.degenesis.quality-selector .window-content {
+  font-family: "Avenir";
+  font-size: 13px;
+  font-weight: 300;
+  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background-size: 2000px;
+  background-position: center;
+  color: var(--degenesis-red);
+}
+
+.app.window-app.degenesis.quality-selector .item-quality input[type="text"] {
+  border-bottom: 1px solid var(--blackred);
+  color: var(--degenesis-red);
+}
+
+.app.window-app.degenesis.sheet select > * {
+  color: var(--degenesis-red);
+  background-color: var(--darkred);
+}
+
+.c-popout {
+  color: var(--light-grey);
+  background-color: var(--darkred);
+}
+
+.editor-edit {
+  color: var(--dark-grey);
+  background: var(--darkred);
+}
+
+#settings #game-details {
+  color: var(--lightred);
+}
+
+#pause h3 {
+  color: var(--degenesis-red);
+  font-weight: 900;
+  text-shadow: 1px 1px 30px var(--darkred);
+}
+
+/* SVG Recolors */
+svg.start-line {
+  filter: invert(51%) sepia(10%) saturate(1395%) hue-rotate(5deg)
+    brightness(87%) contrast(85%);
+}
+
+svg.bottom-line.middle {
+  filter: invert(51%) sepia(10%) saturate(1395%) hue-rotate(5deg)
+    brightness(87%) contrast(85%);
+}
+
+svg.end-line {
+  filter: brightness(0) saturate(100%) invert(51%) sepia(10%) saturate(1395%)
+    hue-rotate(5deg) brightness(87%) contrast(85%);
+}
+
+svg.tab-start-line {
+  filter: invert(51%) sepia(10%) saturate(1395%) hue-rotate(5deg)
+    brightness(87%) contrast(85%);
+}
+
+select.secondary-select {
+  color: white;
+}
