@@ -1,6 +1,6 @@
 /* FVTT Degenesis System Artifacts styling v1.3 
 How to apply: Get the Custom CSS module and paste this entire code into its Custom CSS Rules section. */
-			
+
 /* Color Definitions: Change these to change the colors of the style, with degenesis-red being the main color and the others being variations of it. Notice how only the last value changes from 41 to 21, 61 or 10. For getting a color code, use https://hslpicker.com/ . Changing the 43deg to a different number for all the entries should be enough in most cases. Try replacing it with 83deg for example. */
 
 :root {
@@ -109,6 +109,16 @@ hr {
   outline: 1px solid var(--blackred);
   transition-duration: 0.3s;
   box-shadow: inset 0px -6px 11px 0px var(--degenesis-red);
+}
+
+#settings #game-details {
+  color: var(--lightred);
+}
+
+#pause h3 {
+  color: var(--degenesis-red);
+  font-weight: 900;
+  text-shadow: 1px 1px 30px var(--darkred);
 }
 
 /* * Start of Sheet CSS - if you only want the Artifacts styled character sheets, delete everything above this line */
@@ -355,14 +365,8 @@ a.diamond:hover .square.red {
   background: var(--darkred);
 }
 
-#settings #game-details {
-  color: var(--lightred);
-}
-
-#pause h3 {
-  color: var(--degenesis-red);
-  font-weight: 900;
-  text-shadow: 1px 1px 30px var(--darkred);
+.tox.tox-tinymce {
+  background-color: whitesmoke;
 }
 
 /* SVG Recolors */
