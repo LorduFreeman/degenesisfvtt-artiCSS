@@ -9,3 +9,5 @@ Fixed Permanent spore infestation not discernable
 - Added back coloration for the Pause font display
 - Added Styling for Weapon Quality Window
 - Changed description field background color to a darker tone for better contrast&readability
+# 1.4
+- Fixed the black text in editor issue
