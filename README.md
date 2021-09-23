@@ -1,5 +1,5 @@
 # degenesisfvtt-artiCSS
-##Styling for the Degenesis system of Foundry VTT
+## Styling for the Degenesis system of Foundry VTT
 
 # About
 I really love how customizable Foundry and the Degenesis system for it is, so I made a quick CSS hack because I love the Artifacts style as well. (shown with Harms Way module loaded). These changes do not touch your main Degenesis system at all, they are CSS overrides done by a module you need, Custom CSS.
