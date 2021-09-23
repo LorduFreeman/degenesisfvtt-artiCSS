@@ -23,6 +23,21 @@ Examples of changing the main color:
 
 ![recolor](https://user-images.githubusercontent.com/72170114/134515554-e4f8cdce-ef1f-424e-ba1d-71d216745c59.png)
 ![image](https://user-images.githubusercontent.com/72170114/134558099-43db65de-9af2-446f-9a5a-b869b83dcb02.png)
+Red style uses the following color codes for example:
+    :root {
+      --degenesis-red: hsl(0deg 65% 41%);
+      --blackred: hsl(0deg 65% 21%);
+      --lightred: hsl(0deg 65% 61%);
+      --darkred: hsl(0deg 65% 10%);
+    }
+![image](https://user-images.githubusercontent.com/72170114/134559051-ee4d74db-97bf-4097-838f-408376f41b00.png)
+This Chronicler blue style uses:
+    :root {
+      --degenesis-red: hsl(200deg 35% 41%);
+      --blackred: hsl(200deg 35% 21%);
+      --lightred: hsl(200deg 35% 61%);
+      --darkred: hsl(200deg 35% 10%);
+    }
 
 # Disclaimer
 not 100% perfect. You can report any bugs or issues here on Github or directly to me on the Degenesis Discord.
