@@ -126,6 +126,16 @@ hr {
   text-shadow: 1px 1px 30px var(--darkred);
 }
 
+#controls ol.control-tools > li.toggle {
+    background: rgb(60 0 0 / 50%);
+    border: 1px solid #931818;
+}
+
+#controls ol.control-tools > li.toggle.active, #controls ol.control-tools > li.toggle:hover {
+    background: rgb(120 0 0 / 50%);
+    box-shadow: 0 0 10px #ff8d8d;
+}
+
 /* * Start of Sheet CSS - if you only want the Artifacts styled character sheets, delete everything above this line */
 .square {
   border: 1px solid var(--blackred);
