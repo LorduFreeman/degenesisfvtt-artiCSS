@@ -8,6 +8,11 @@ How to apply: Get the Custom CSS module and paste this entire code into its Cust
   --blackred: hsl(43deg 25% 21%);
   --lightred: hsl(43deg 25% 61%);
   --darkred: hsl(43deg 25% 10%);
+  --color-border-highlight: var(--degenesis-red);
+  --color-border-highlight-alt:	var(--degenesis-red);
+  --color-shadow-highlight: var(--degenesis-red);
+  --color-text-hyperlink: var(--lightred);
+  --color-shadow-primary: var(--darkred);	
 }
 
 .app.window-app.degenesis.sheet .attribute-tab {
