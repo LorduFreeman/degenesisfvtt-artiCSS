@@ -11,3 +11,5 @@ Fixed Permanent spore infestation not discernable
 - Changed description field background color to a darker tone for better contrast&readability
 # 1.4
 - Fixed the black text in editor issue
+# 1.5
+- V9-Compatibility, changed button style to fit again.
