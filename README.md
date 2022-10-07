@@ -29,6 +29,7 @@ Change the first few values (the 45, 26% or 40%) in the :root declaration to cha
   --dgns-s: 26%;
   /* Lightness  */
   --dgns-l: 40%;
+  }
   ```
 
 # Customizing - V9
