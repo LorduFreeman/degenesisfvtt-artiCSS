@@ -15,7 +15,23 @@ I really love how customizable Foundry and the Degenesis system for it is, so I 
 
 This file contains the Artifacts styling for PC sheets and the Chat Card display. If you just want a part, look for the comment section "/* * Start of Sheet CSS */" and cut there. 
 
-# Customizing
+# Customizing - V10
+It's possible to relatively easy change the main UI color to something different than the Artifacts Gold. All you need to do is look at the color definitions starting at the **root** code part of the code. 
+
+Change the first few values (the 45, 26% or 40%) in the :root declaration to change your style - either globally in the upper Custom CSS window or just for the current user if you add it into the lower one.
+
+```
+:root {
+  /* Change the dgns-h number to change the hue of color */
+  /* Hue        */ 
+  --dgns-h: 45;
+  /* Saturation */
+  --dgns-s: 26%;
+  /* Lightness  */
+  --dgns-l: 40%;
+  ```
+
+# Customizing - V9
 It's possible to relatively easy change the main UI color to something different than the Artifacts Gold. All you need to do is look at the color definitions starting at the **root** code part of the **Degenesis Arti Style.css** code. The Color Definitions comment in the CSS file explains how it works.
 
 The only things currently not easily changeable are the Culture/Concept/Cult Icons and the sheet's lines at the borders.
