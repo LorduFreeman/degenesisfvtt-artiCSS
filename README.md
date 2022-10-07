@@ -10,7 +10,7 @@ I really love how customizable Foundry and the Degenesis system for it is, so I 
 # How to install
 1. Install the Custom CSS Module in Foundry VTT ( https://foundryvtt.com/packages/custom-css )
 2. Go to the Module Settings of Custom CSS and click the Custom CSS Rules button
-3. Paste the content of the **Degenesis Arti Style.css** file into the Custom CSS Rules window and click save.
+3. Paste the content of the **Degenesis Arti Style.css** file for V9 or the **degenesis-artifacts-styling-v10.css** for V10 into the Custom CSS Rules window and click save.
 4. The Artifacts styling should now be applied to your Degenesis system.
 
 This file contains the Artifacts styling for PC sheets and the Chat Card display. If you just want a part, look for the comment section "/* * Start of Sheet CSS */" and cut there. 
