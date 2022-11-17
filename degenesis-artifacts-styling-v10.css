@@ -1,4 +1,4 @@
-/* FVTT Degenesis System Artifacts styling v1.50
+/* FVTT Degenesis System Artifacts styling v1.6
 How to apply: Get the Custom CSS module and paste this entire code into its Custom CSS Rules section. */
 :root {
   /* Change the dgns-h number to change the hue of color */
@@ -195,7 +195,7 @@ span.nocaps {
 }
 
 .app.window-app.sidebar-popout .window-content, #sidebar {
-  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background: url(../systems/degenesis/ui/black_01.jpg);
   border-radius: 0px;
   font-family: "Calluna";
 }
@@ -259,7 +259,7 @@ span.nocaps {
 
 /*WANT TO REMOVE BLUE HIGHLIGHTING FROM SELECT ELEMENTS*/
 #chat-log .chat-message.message.whisper, #chat-log .chat-message.message.blind {
-  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background: url(../systems/degenesis/ui/black_01.jpg);
   color: #CCC;
 }
 #chat-log .chat-message.message.whisper .message-header, #chat-log .chat-message.message.blind .message-header {
@@ -337,19 +337,19 @@ a:hover {
 #navigation #scene-list .scene {
   border: 1px solid white;
   border-radius: 0px;
-  /*background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);*/
+  /*background: url(../systems/degenesis/ui/black_01.jpg);*/
   background: black;
 }
 #navigation #scene-list .scene.gm {
   border: 1px solid var(--degenesis-red);
-  /*background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);*/
+  /*background: url(../systems/degenesis/ui/black_01.jpg);*/
   background: black;
 }
 #navigation #scene-list .scene.view {
   border: 1px solid var(--degenesis-red);
   box-shadow: none;
   color: var(--degenesis-red);
-  /*background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);*/
+  /*background: url(../systems/degenesis/ui/black_01.jpg);*/
   background: black;
 }
 
@@ -360,7 +360,7 @@ a:hover {
 
 #chat-log .message {
   border-radius: 0px;
-  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background: url(../systems/degenesis/ui/black_01.jpg);
   margin: 5px;
 }
 
@@ -371,7 +371,7 @@ a:hover {
 }
 
 #players {
-  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background: url(../systems/degenesis/ui/black_01.jpg);
   font-family: "Avenir";
   text-transform: uppercase;
   border-radius: 0px;
@@ -384,7 +384,7 @@ a:hover {
   font-family: "Avenir";
 }
 #hotbar #macro-list {
-  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background: url(../systems/degenesis/ui/black_01.jpg);
 }
 #hotbar .macro {
   background: none;
@@ -397,7 +397,7 @@ a:hover {
 }
 
 .app.window-app.journal-sheet .window-content {
-  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background: url(../systems/degenesis/ui/black_01.jpg);
 }
 
 .sheet.journal-entry .sidebar {
@@ -435,9 +435,11 @@ a:hover {
   border: 1px solid var(--degenesis-red);
 }
 
+#menu #menu-items li {
+    color: var(--degenesis-red);
+}
 #menu #menu-items li:hover {
-  text-shadow: none;
-  color: var(--degenesis-red);
+    color: var(--degenesis-artifact-gold-light);
 }
 
 #context-menu {
@@ -2661,7 +2663,7 @@ a {
 }
 
 #chat-log .message {
-  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background: url(../systems/degenesis/ui/black_01.jpg);
   background-size: 500px;
   background-position: center;
   color: var(--degenesis-red);
@@ -2673,7 +2675,7 @@ a {
 }
 
 #chat-form textarea {
-  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background: url(../systems/degenesis/ui/black_01.jpg);
   background-size: 400px;
   background-position: bottom;
   color: var(--degenesis-red);
@@ -2838,7 +2840,7 @@ a.diamond:hover .square.red {
 }
 
 .app.window-app .window-content {
-  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background: url(../systems/degenesis/ui/black_01.jpg);
   font-family: "Calluna";
   background-size: cover;
 }
@@ -3002,7 +3004,7 @@ a.diamond:hover .square.red {
 
 .app.window-app.degenesis.sheet .window-content {
   color: var(--degenesis-red);
-  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background: url(../systems/degenesis/ui/black_01.jpg);
   background-size: cover;
   background-position-y: top;
 }
@@ -3026,7 +3028,7 @@ a.diamond:hover .square.red {
   font-family: "Avenir";
   font-size: 13px;
   font-weight: 300;
-  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background: url(../systems/degenesis/ui/black_01.jpg);
   background-size: 2000px;
   background-position: center;
   color: var(--degenesis-red);
@@ -3045,11 +3047,11 @@ a.diamond:hover .square.red {
 /* Journal Entries */
 .sheet.journal-entry .sidebar {
   color: inherit;
-  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background: url(../systems/degenesis/ui/black_01.jpg);
 }
 
 .sheet.journal-entry .journal-entry-content {
-  background: url(../systems/degenesis/ui/degenesis_parchment_black.jpg);
+  background: url(../systems/degenesis/ui/black_01.jpg);
 }
 
 .c-popout {
