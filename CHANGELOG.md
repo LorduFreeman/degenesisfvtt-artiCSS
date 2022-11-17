@@ -15,3 +15,4 @@ Fixed Permanent spore infestation not discernable
 - V9-Compatibility, changed button style to fit again.
 # 1.6
 - V10 Compatibility, first version. Bugs/unstyled elements may be still present
+- Fixed transparency issues
