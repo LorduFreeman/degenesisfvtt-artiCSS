@@ -66,7 +66,7 @@ not 100% perfect. You can report any bugs or issues here on Github or directly t
 - Needs fixing: Text Editor field text displayed in black color when editing 
 
 # Credits
-- Degenesis Foundry VTT System shown by Moo Man and many other great Devs ( https://github.com/moo-man/DEGENESIS-FoundryVTT )
+- Degenesis Foundry VTT System shown by Moo Man, Chernojack and many other great Devs ( https://github.com/moo-man/DEGENESIS-FoundryVTT )
 - Harm's Way content by Chernojack ( https://github.com/dgr-foundry/dgr-harms-way )
 - Custom CSS Module by zeel ( https://foundryvtt.com/packages/custom-css )
 
